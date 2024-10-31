@@ -27,8 +27,8 @@ img_transform=pth_transforms.Compose([
 def model_name_to_ckpt_path(backbone_name):
     backbone_dict={
     'graphconvnet_ti': './viz_nodes/ckpt/GraphConvNet_Ti_77_1.pth.tar',
-
-    'graphconvnet_b': './viz_nodes/ckpt/GraphConvNet_B_83_2.pth.tar'
+     'graphconvnet_s': '../ckpt/GraphConvNet_S_82.pth.tar',
+    
                            }
     return backbone_dict[backbone_name]
 
