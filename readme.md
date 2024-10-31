@@ -35,11 +35,15 @@ The visualization code only available to GraphConvNet
 2. open `viz_demo.ipnb`,and set arguments(arch,**ckpt_path**……) 
 3. run cells
 
-### Demo:
-<img src="./demo_img.JPEG" alt="Image 1" style="display:inline; width:45%;">
+   
+### Demo
+The first row: gradcam heatmaps of GraphConvNet-Ti in 4th,8th,12th layers.\
+The second row: the max gradcam value patch(node) and corresponding neighbors in different layers.
 
-<img src="./viz_output/demo_img/layer_4_cam.png" alt="Image 1" style="display:inline; width:45%;">
-<img src="./viz_output/demo_img/layer_4_cam.png" alt="Image 1" style="display:inline; width:45%;">
+<img src="./viz_output/demo_img/layer_4_cam.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/demo_img/layer_8_cam.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/demo_img/layer_12_cam.png" alt="Image 1" style="display:inline; width:30%;">
+<img src="./viz_output/demo_img/layer_4_center_5_neighbors.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/demo_img/layer_8_center_22_neighbors.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/demo_img/layer_12_center_87_neighbors.png" alt="Image 1" style="display:inline; width:30%;">
+
 ## Acknowledgement
 
 This repo partially uses code from [vig](https://github.com/huawei-noah/Efficient-AI-Backbones/tree/master/vig_pytorch)
+
