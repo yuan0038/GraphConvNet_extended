@@ -7,7 +7,7 @@ timm 0.3.2,
 torchprofile 0.0.4,
 apex
 
-## Pretrained models
+## Pretrained models on ImageNet
 
 - GraphConvNet
 
@@ -37,7 +37,7 @@ The visualization code only available to GraphConvNet
 
    
 ### Demo
-- The first row: gradcam heatmaps of GraphConvNet-Ti in 4th,8th,12th layers.\
+- The first row: gradcam heatmaps of GraphConvNet-Ti in 4th,8th,12th layers.
 - The second row: the patch(node) that  has the max gradcam value and its corresponding neighbors in different layers. (you can draw edges using other tools such as  PowerPoint, OmniGraffle..)
 
 <img src="./viz_output/demo_img/layer_4_cam.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/demo_img/layer_8_cam.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/demo_img/layer_12_cam.png" alt="Image 1" style="display:inline; width:30%;">
