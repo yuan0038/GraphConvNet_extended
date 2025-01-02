@@ -1,3 +1,5 @@
+## GraphConvNet
+**Hierarchical Convolution and Graph Net for Utilizing Structural Information of Image**
 ![image](./fig/graphconvnet.png)
 
 ## Requirements
@@ -30,18 +32,20 @@ apex
 see  `run.sh`
 
 ## Visualization
-The visualization code only available to GraphConvNet
-1. Download the checkpoints of  **GraphConvNet-Ti or GraphConvNet-S** 
+The visualization code only available to GraphConvNet and ViG
+1. Download the checkpoints of  **GraphConvNet-Ti or GraphConvNet-S**.
 2. open `viz_demo.ipnb`,and set arguments(arch,**ckpt_path**……) 
 3. run cells
 
+   
+⚠️⚠️⚠️  if you want to visualize ViG, please download the checkpoints I provide  [here](https://pan.baidu.com/s/1At2NY9wuAC3MH8hqEICRRg?pwd=3qbz), since **I reorganized ViG code** and transformed the official checkpoints' state_dict to suit my code.
    
 ### Demo
 - The first row: gradcam heatmaps of GraphConvNet-Ti in 4th,8th,12th layers.
 - The second row: the patch(node) that  has the max gradcam value and its corresponding neighbors in different layers. (you can draw edges using other tools such as  PowerPoint, OmniGraffle..)
 
-<img src="./viz_output/demo_img/layer_4_cam.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/demo_img/layer_8_cam.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/demo_img/layer_12_cam.png" alt="Image 1" style="display:inline; width:30%;">
-<img src="./viz_output/demo_img/layer_4_center_5_neighbors.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/demo_img/layer_8_center_22_neighbors.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/demo_img/layer_12_center_87_neighbors.png" alt="Image 1" style="display:inline; width:30%;">
+<img src="./viz_output/graphconvnet_ti/demo_img/layer_4_cam.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/graphconvnet_ti/demo_img/layer_8_cam.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/graphconvnet_ti/demo_img/layer_12_cam.png" alt="Image 1" style="display:inline; width:30%;">
+<img src="./viz_output/graphconvnet_ti/demo_img/layer_4_center_5_neighbors.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/graphconvnet_ti/demo_img/layer_8_center_22_neighbors.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/graphconvnet_ti/demo_img/layer_12_center_87_neighbors.png" alt="Image 1" style="display:inline; width:30%;">
 
 ## Acknowledgement
 
