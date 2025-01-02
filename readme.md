@@ -33,9 +33,9 @@ see  `run.sh`
 
 ## Visualization
 The visualization code only available to GraphConvNet and ViG
-1. Download the checkpoints of  **GraphConvNet-Ti or GraphConvNet-S**.
-2. open `viz_demo.ipnb`,and set arguments(arch,**ckpt_path**……) 
-3. run cells
+1. **Create a fold named 'ckpt' in './viz_nodes'** and download the checkpoints of  **GraphConvNet-Ti or GraphConvNet-S** and put them in './viz_nodes/ckpt'
+2. Open `viz_demo.ipnb`,and set arguments(arch,) 
+3. Run cells
 
    
 ⚠️⚠️⚠️  if you want to visualize ViG, please download the checkpoints I provide  [here](https://pan.baidu.com/s/1At2NY9wuAC3MH8hqEICRRg?pwd=3qbz), since **I reorganized ViG code** and transformed the official checkpoints' state_dict to suit my code.
