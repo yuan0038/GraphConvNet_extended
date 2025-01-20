@@ -42,11 +42,12 @@ The visualization code only available to GraphConvNet and ViG
    
 ### Demo
 - The first row: gradcam heatmaps of GraphConvNet-Ti in 4th,8th,12th layers.
-- The second row: the patch(node) that  has the max gradcam value and its corresponding neighbors in different layers. (you can draw edges using other tools such as  PowerPoint, OmniGraffle..)
+- The second row: the patch(node) that  has the max gradcam value(most discriminative) and its corresponding neighbors in different layers. 
+- The third row: add edges,the pentagram is the most discriminative node.(you can draw edges using  tools such as  PowerPoint, OmniGraffle..)
 
 <img src="./viz_output/graphconvnet_ti/demo_img/layer_4_cam.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/graphconvnet_ti/demo_img/layer_8_cam.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/graphconvnet_ti/demo_img/layer_12_cam.png" alt="Image 1" style="display:inline; width:30%;">
 <img src="./viz_output/graphconvnet_ti/demo_img/layer_4_center_5_neighbors.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/graphconvnet_ti/demo_img/layer_8_center_22_neighbors.png" alt="Image 1" style="display:inline; width:30%;"><img src="./viz_output/graphconvnet_ti/demo_img/layer_12_center_87_neighbors.png" alt="Image 1" style="display:inline; width:30%;">
-
+<img src="./fig/graph_4th.jpg" alt="Image 1" style="display:inline; width:30%;"><img src="./fig/graph_8th.jpg" alt="Image 1" style="display:inline; width:30%;"><img src="./fig/graph_12th.jpg" alt="Image 1" style="display:inline; width:30%;">
 ## Acknowledgement
 
 This repo partially uses code from [vig](https://github.com/huawei-noah/Efficient-AI-Backbones/tree/master/vig_pytorch)
